@@ -19,7 +19,7 @@ public class Example {
   public static final Logger LOGGER = LoggerFactory.getLogger(Example.class);
   public static void main(String[] args) throws IOException, InterruptedException{
 	  //Change the value to your installation
-	  System.setProperty("webdriver.gecko.driver","C:/Users/Raja/WorkSpace/work/workbench/screenshot/geckodriver-v0.16.1-win64/geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver","../screenshot/geckodriver-v0.16.1-win64/geckodriver.exe");
 	  //Name of the screenshot file to be created.
 	  final File screenShot = new File("screenshot1.png").getAbsoluteFile();
 	  WebDriver driver = new FirefoxDriver();
